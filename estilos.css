@@ -52,3 +52,10 @@ input[type="checkbox"]:focus {
 .botao-padrao:hover {
   background-color: var(--marrom-escuro);
 }
+
+.accordion {
+  /* Troca a cor de background padrão do boostrap quando há foco */
+  --bs-accordion-active-bg: var(--marrom-escuro);
+  /* Retira a box-shadow azul quando há foco */
+  --bs-accordion-btn-focus-box-shadow: none;
+}
