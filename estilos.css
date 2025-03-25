@@ -59,3 +59,11 @@ input[type="checkbox"]:focus {
   /* Retira a box-shadow azul quando há foco */
   --bs-accordion-btn-focus-box-shadow: none;
 }
+
+.satisfacao-input::-webkit-slider-thumb {
+  background-color: var(--marrom-claro);
+}
+
+.satisfacao-input::-webkit-slider-runnable-track {
+  background-color: black;
+}
