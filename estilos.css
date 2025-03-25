@@ -67,3 +67,7 @@ input[type="checkbox"]:focus {
 .satisfacao-input::-webkit-slider-runnable-track {
   background-color: black;
 }
+
+.rodape {
+  background-color: var(--marrom-claro);
+}
